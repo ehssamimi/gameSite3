@@ -9,6 +9,7 @@ import Three from "../../Three/Three";
 import Fiveth from "../../Fiveth/Fiveth";
 import Footer from "../../Footer/Footer";
 import Fourth from "../../Fourth/Fourth";
+import Slider from "../../Slider/Slider";
 
 class MainComponent extends Component {
     constructor(props) {
@@ -33,12 +34,16 @@ class MainComponent extends Component {
                         <PlayVideo  playVideo={this.playVideo.bind(this)}/>
                         :
                         <div>
-                            <First playVideo={this.playVideo.bind(this)}/>
-                            <Second/>
-                            <Three/>
-                         <Fourth/>
-                            <Fiveth/>
-                            <Footer/>
+                            <Slider/>
+                            <div>
+                                <First playVideo={this.playVideo.bind(this)}/>
+                                <Second/>
+                                <Three/>
+                                <Fourth/>
+                                <Fiveth/>
+                                <Footer/>
+                            </div>
+
                             {/*<SecondPage/>*/}
 
                         </div>
