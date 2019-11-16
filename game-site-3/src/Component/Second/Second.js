@@ -45,9 +45,12 @@ class Second extends Component {
                 </div>
                 <div className='h-10vh w-100 bg-black d-flex justify-content-end align-items-center position-relative  mb-3'>
                     <p className='  marginZero tab-second-text  '>AND YOUR TICKET TO HEAVEN</p>
-                    {
-                        showMore?<Button className='button-first m-2 fs-17vw w-12vw ml-auto '  onClick={this.showMore.bind(this)}>Show Less</Button>:<Button className='button-second m-2 fs-17vw w-12vw ml-auto  ' onClick={this.showMore.bind(this)}>LEARN MORE</Button>
-                    }
+                    <div className='paddingRightMain ml-auto'>
+                        {
+                            showMore?<Button className='button-first m-2 fs-17vw w-12vw   '  onClick={this.showMore.bind(this)}>Show Less</Button>:<Button className='button-second m-2 fs-17vw w-12vw     ' onClick={this.showMore.bind(this)}>LEARN MORE</Button>
+                        }
+                    </div>
+
 
                 </div>
 

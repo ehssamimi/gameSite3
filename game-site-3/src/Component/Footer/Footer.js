@@ -27,7 +27,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className='d-flex justify-content-start align-items-center  h-30' dir='rtl'>
-                    <div className='col-md-2 col-4   ml-auto  '>
+                    <div className='col-md-2 col-4   ml-auto paddingRightMain '>
                         <img src={ax}  className='imgSelf'/>
                     </div>
                     <div className='col-6 d-flex justify-content-end align-items-center h-100 '  >

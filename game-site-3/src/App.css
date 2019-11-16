@@ -192,6 +192,9 @@ html {
 .fs-1vw{
   font-size: 1vw!important;
 }
+.fs-6px{
+    font-size: 6px;
+}
 .fs-11vw{
   font-size: 1.1vw!important;
 }
@@ -382,6 +385,21 @@ html {
      position: fixed;
      top: 0!important;
  }
+ .slider{
+     height: 91vh;
+     margin-top: 9vh;
+     /*height: 100%;*/
+     width: 0;
+     position: absolute;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     transition: 0.5s;
+     /*padding-top: 60px;*/
+ }
+
 
  /*****second Pages*******/
 .bg-second-green{
@@ -435,14 +453,8 @@ html {
 }
 /*************three********/
 .bg-1{
-  background-image: url('./Common/Assets-3/Fold3/left green.png')  ;
-
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url('./Common/Assets-3/Fold3/left green.png') no-repeat center;
+    background-size: 100% 100%;
 }
 .bg-2{
     background: url('./Common/Assets-3/Fold3/right red.png') no-repeat center;
@@ -572,8 +584,8 @@ h3{
     top: 0;
     left: 0;
     height: 100vh;
-    background: black;
-    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.53);
+    /*opacity: 0.5;*/
 
 }
 .fs-text-2{

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Video from './../../Common/background-video2_x264.mp4'
-import button from './../../Common/down.svg';
+import button from './../../Common/Asset 2@3x.png';
 import { Button } from 'reactstrap';
 class FirstMain extends Component {
     constructor(props) {

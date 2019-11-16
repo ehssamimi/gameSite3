@@ -34,7 +34,7 @@ class MainComponent extends Component {
                         <PlayVideo  playVideo={this.playVideo.bind(this)}/>
                         :
                         <div>
-                            <Slider/>
+                            {/*<Slider/>*/}
                             <div>
                                 <First playVideo={this.playVideo.bind(this)}/>
                                 <Second/>
