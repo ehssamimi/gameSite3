@@ -38,10 +38,12 @@ class Three extends Component {
                                 </div>
                             </div>
                             <div className="each-slide d-flex ">
-                                <div className='col-6 bg-3'>
-
+                                <div className='col-6 bg-3 d-flex justify-content-start align-items-center flex-column'>
+                                    <p className='text-white fs-4vw'>ALWAYS ARMED</p>
+                                    <p className='text-white fs-4vw'>ALWAYS HEALTHY</p>
                                 </div>
-                                <div className='col-6 bg-4'>
+                                <div className='col-6 bg-4 d-flex justify-content-center align-items-start'>
+                                    <p className='text-white fs-4vw'>NEVER TRUST THE LAND</p>
 
                                 </div>
                             </div>

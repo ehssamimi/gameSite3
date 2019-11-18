@@ -187,7 +187,7 @@ html {
 
 
 .fs-08vw{
-  font-size: 0.8vw!important;
+  font-size: calc(0.8vw + 0.5em)!important;
 }
 .fs-1vw{
   font-size: 1vw!important;
@@ -196,31 +196,31 @@ html {
     font-size: 6px;
 }
 .fs-11vw{
-  font-size: 1.1vw!important;
+  font-size: calc(1.1vw + 0.5em)!important;
 }
 .fs-12vw{
-  font-size: 1.2vw!important;
+  font-size: calc(1.2vw + 0.5em)!important;
 }
 .fs-13vw{
-  font-size: 1.3vw!important;
+  font-size: calc(1.3vw + 0.2em)!important;
 }
 .fs-15vw{
-  font-size: 1.5vw!important;
+  font-size: calc(1.5vw + 0.5em) !important;
 }
 .fs-17vw{
-  font-size: 1.7vw!important;
+  font-size: calc(1.7vw + 0.3em)!important;
 }
 .fs-2vw{
-     font-size: 2vw!important;
+     font-size:  calc(2vw + 0.5em)!important;
  }
 .fs-23vw{
-    font-size: 2.3vw!important;
+    font-size: calc(2.3vw + 0.5em)!important;
 }
 .fs-3vw{
     font-size: 3vw!important;
 }
 .fs-35vw{
-    font-size: 3.5vw!important;
+    font-size: calc(3.5vw + 0.5em)!important;
 }
 .fs-4vw{
     font-size: 4vw!important;
@@ -474,7 +474,7 @@ html {
     position: absolute;
     top: 15%;
     left: 10%;
-    /*font-size: 1vw;*/
+    font-size: calc(1vw + 0.5em);
 }
 .div-fourth-2{
     position: absolute;
@@ -535,7 +535,7 @@ h3{
 .alink{
     color: #deecf7;
     text-decoration: none;
-    font-size: 1.3vw;
+    font-size:calc( 1.3vw+0.5em);
 }
 .alink:hover{
     color: #deecf7;
@@ -589,16 +589,11 @@ h3{
 
 }
 .fs-text-2{
-    font-size: 1vw ;
+    font-size: calc(1vw + 0.5em) ;
     color: white;
     opacity: 1!important;
     white-space: pre!important;
 }
-
-
-
-
-
 
 
 

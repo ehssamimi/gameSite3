@@ -28,8 +28,8 @@ class FirstMain extends Component {
                         <p>STAY HELL</p>
                     </div>
                     <div className='d-flex flex-column col-10 marginZero paddingZero'>
-                        <button className='button-first   m-2 fs-17vw   paddingZero'   onClick={this.playVideo.bind(this)}>WATCH TRAILER</button>
-                        <button className='button-first   m-2 fs-17vw   paddingZero'>KICK STARTER</button>
+                        <button className='button-first w-100  m-2 fs-17vw   paddingZero'   onClick={this.playVideo.bind(this)}>WATCH TRAILER</button>
+                        <button className='button-first  w-100  m-2 fs-17vw   paddingZero'>KICK STARTER</button>
                     </div>
                 </div>
 

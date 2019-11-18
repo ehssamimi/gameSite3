@@ -42,9 +42,7 @@ class HeaderSecond extends Component {
 
                 {/*</Menu>*/}
                 <div className='col-2 d-flex h-100   justify-content-end paddingLeftMain   pr-0'>
-                <div className='col-6 text-left  text-white fs-17vw   h-100 d-flex align-items-center justify-content-end  b-r pr-3'>
-
-
+                <div className='col-sm-9 col-md-7   text-left  text-white fs-17vw   h-100 d-flex align-items-center justify-content-end  b-r pr-3'>
 
                     <span className='d-flex align-items-center justify-content-center pointer' onClick={this.handelClickMenu.bind(this)}> MENU <IoIosMenu className="mr-2"/>  </span>
                 </div>
