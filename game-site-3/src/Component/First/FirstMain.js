@@ -17,7 +17,7 @@ class FirstMain extends Component {
     }
     render() {
         return (
-            <div className='h-100'>
+            <div className='h-100   '>
                 <video autoPlay muted loop id="myVideo" className='h-100 w-100 fit-fill'>
                     <source src={Video} type="video/mp4"/>
                 </video>
@@ -28,8 +28,8 @@ class FirstMain extends Component {
                         <p>STAY HELL</p>
                     </div>
                     <div className='d-flex flex-column col-10 marginZero paddingZero'>
-                        <button className='button-first w-100  m-2 fs-17vw   paddingZero'   onClick={this.playVideo.bind(this)}>WATCH TRAILER</button>
-                        <button className='button-first  w-100  m-2 fs-17vw   paddingZero'>KICK STARTER</button>
+                        <button className='button-first w-100  mb-2 fs-17vw   paddingZero'   onClick={this.playVideo.bind(this)}>WATCH TRAILER</button>
+                        <button className='button-first  w-100  mt-2 fs-17vw   paddingZero'>KICK STARTER</button>
                     </div>
                 </div>
 

@@ -29,18 +29,18 @@ class Fourth extends Component {
                 </div>
 
                 <div className='d-flex justify-content-center align-items-center w-100 h-20vh mb-5vh' dir='rtl'>
-                    <div className='col-4 h-100 d-flex justify-content-center align-items-center bg-4-1' >
-                        <span className='ml-2 fs-2vw'>INSTAGRAM</span>
-                        <FaInstagram  className='fs-5vw text-white  '/>
+                    <div className='col-4 h-100 d-flex justify-content-center align-items-center bg-4-1 text-white gray-hover ' >
+                        <span className='ml-2 fs-2vw '>INSTAGRAM</span>
+                        <FaInstagram  className='fs-5vw     '/>
                     </div>
-                    <div className='col-4 h-100 d-flex justify-content-center align-items-center  bg-4-2'>
-                        <span className='ml-2 fs-2vw'>TWITTER</span>
-                        <FaTwitter  className='fs-5vw text-white  '/>
+                    <div className='col-4 h-100 d-flex justify-content-center align-items-center text-white gray-hover bg-4-2 '>
+                        <span className='ml-2 fs-2vw '>TWITTER</span>
+                        <FaTwitter  className='fs-5vw     '/>
 
                     </div>
-                    <div className='col-4 h-100 d-flex justify-content-center align-items-center bg-4-3'>
-                        <span className='ml-2 fs-2vw'> YOUTUBE</span>
-                        <FaYoutube  className='fs-5vw text-white  '/>
+                    <div className='col-4 h-100 d-flex justify-content-center align-items-center bg-4-3 text-white gray-hover  '>
+                        <span className='ml-2 fs-2vw '> YOUTUBE</span>
+                        <FaYoutube  className='fs-5vw    '/>
                     </div>
                 </div>
                 

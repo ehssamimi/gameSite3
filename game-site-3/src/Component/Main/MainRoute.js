@@ -18,7 +18,7 @@ class App extends Component {
                         <Switch>
                             <Redirect
                                 exact
-                                from={`${match.url}/`}
+                                from={`${match.url}/ `}
                                 to={`/ticket-to-heaven`}
                             />
                             {/*<Route*/}

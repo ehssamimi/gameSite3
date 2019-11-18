@@ -22,7 +22,7 @@ class HeaderSecond extends Component {
             close:!pre.close
         }));
         if (this.state.close){
-            document.getElementById("mySidebar").style.width = "40vw";
+            document.getElementById("mySidebar").style.width = "100vw";
         }else{
             document.getElementById("mySidebar").style.width = "0";
         }
@@ -47,22 +47,37 @@ class HeaderSecond extends Component {
                     <span className='d-flex align-items-center justify-content-center pointer' onClick={this.handelClickMenu.bind(this)}> MENU <IoIosMenu className="mr-2"/>  </span>
                 </div>
             </div>
-                <div className='slider ' id='mySidebar' >
-                    <div className='d-flex Menu-Item w-100'>
+                <div className='slider d-flex ' id='mySidebar' >
+                    <div style={{width:"60%"}} className='bg-dark-side'>
 
-                        <span className='col-2 h-100 align-items-center justify-content-end mr-auto'>
-                            <img src={usa} alt={usa} className='imgSelf'/>
+                     </div>
+                    <div style={{width:"40%"}} className='bg-black-menu'>
+                        <div className='d-flex Menu-Item w-100 paddingLeftMain'>
+
+
+                        <span className='d-flex  col-10 align-items-center justify-content-start pointer  ' onClick={this.handelClickMenu.bind(this)}>
+                            <FaWindowClose className='ml-2 mt-1'/>CLose
                         </span>
-                        <span className='d-flex  col-10 align-items-center justify-content-end pointer ' onClick={this.handelClickMenu.bind(this)}>
-                            CLose <FaWindowClose className='mr-2'/>
+                            <span className='col-2 h-100 align-items-center justify-content-end MenuTxt '>
+                            <img src={usa} alt={usa} className='fit-fill h-100 w-80'/>
                         </span>
+                        </div>
+                        <a id="about" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">HOME</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">KICKSTARTER</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">JOBS & TALENTS</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">ABOUT US</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">EVENTS</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">CONTACT US</a>
+                        <div className='MenuTxt text-left d-flex flex-column paddingLeftMain' dir='ltr' >
+                            <span className="mt-4 text-left">IF YOU ARE INTERESTED IN WORKING WITH US,</span>
+                            <span  className=" ">PLEASE CONTACT US  <a id="contact" className=" linkPublisher"  href="publisher-section">HERE</a></span>
+                        </div>
                     </div>
-                    <a id="about" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">HOME</a>
-                    <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">KICKSTARTER</a>
-                    <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">JOBS & TALENTS</a>
-                    <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">ABOUT US</a>
-                    <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">EVENTS</a>
-                    <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">CONTACTS US</a>
+
+
+
+
+
                 </div>
 
             </div>

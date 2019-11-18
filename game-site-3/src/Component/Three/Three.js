@@ -38,12 +38,16 @@ class Three extends Component {
                                 </div>
                             </div>
                             <div className="each-slide d-flex ">
-                                <div className='col-6 bg-3 d-flex justify-content-start align-items-center flex-column'>
-                                    <p className='text-white fs-4vw'>ALWAYS ARMED</p>
-                                    <p className='text-white fs-4vw'>ALWAYS HEALTHY</p>
+                                <div className='col-6 bg-3 d-flex justify-content-start align-items-center flex-column text-center'>
+                                    <p className='text-white fs-4vw mb-0'>BE FASHIONABLE</p>
+                                    <p className='text-white fs-2vw mb-0'>THE FASHION IS IMPORTANT! EVEN ON THE
+                                        BATTLEFIELD</p>
+
                                 </div>
-                                <div className='col-6 bg-4 d-flex justify-content-center align-items-start'>
-                                    <p className='text-white fs-4vw'>NEVER TRUST THE LAND</p>
+                                <div className='col-6 bg-4 d-flex justify-content-start align-items-center flex-column text-center'>
+                                    <p className='text-white fs-4vw mb-0'>ARMLETS OF POWER</p>
+                                    <p className='text-white fs-2vw mb-0'>TRUE POWER THAT CHANGE THE PATH OF ANY BATTLE</p>
+
 
                                 </div>
                             </div>

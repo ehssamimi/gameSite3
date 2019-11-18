@@ -322,12 +322,14 @@ html {
     height: 7vh;
     /*line-height: 7vh;*/
     text-align: center;
-    padding: 0!important;
+    /*padding: 0!important;*/
+    padding: 0 0   7px 0!important;
     margin-left: 0!important;
     border: 0!important;
     color: white!important;
     display: flex;
     justify-content: center;
+    /*align-items: top;*/
     /*align-items: start;*/
 }
 .button-first:hover{
@@ -335,7 +337,7 @@ html {
     height: 7vh;
     /*line-height: 7vh;*/
     text-align: center;
-     padding: 0!important;
+    padding: 0 0   7px 0!important;
     margin-left: 0!important;
     border: 0!important;
     color: Black!important;
@@ -348,7 +350,7 @@ html {
     height: 7vh;
     /*line-height: 7vh;*/
     text-align: center;
-     padding: 0!important;
+    padding: 0 0   7px 0!important;
     border: 0!important;
     color: Black!important;
     display: flex;
@@ -360,14 +362,16 @@ html {
     height: 7vh;
     /*line-height: 7vh;*/
     text-align: center;
-     padding: 0!important;
+    padding: 0 0   7px 0!important;
     border: 0!important;
     color: white!important;
     display: flex;
     justify-content: center;
     /*align-items: start;*/
 }
-
+.bg-dark-side{
+    background: rgba(0, 0, 0, 0.53);
+}
 .paddingAll{
     padding-right: 2.4vw;
     padding-left: 2.4vw;
@@ -394,10 +398,13 @@ html {
      z-index: 1;
      top: 0;
      left: 0;
-     background-color: #111;
      overflow-x: hidden;
      transition: 0.5s;
      /*padding-top: 60px;*/
+ }
+ .bg-black-menu{
+     background-color: #111;
+
  }
 
 
@@ -678,6 +685,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
     border-left: 0!important;
     border-bottom: 0.5px solid white ;
 }
+.MenuTxt{
+    color:white;
+    width: 100%;
+    font-size: 1.2vw;
+    border-top: 0!important;
+    border-right: 0!important;
+    border-left: 0!important;
+}
 
 .Menu-Item:hover {
     text-decoration: none;
@@ -687,8 +702,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
     text-decoration: none;
     color:white;
      border : 0!important;
-
-
 }
 .w-50vw{
     width: 35% !important;
@@ -697,4 +710,38 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-top:  9vh;
  }
 
+.twitter-header-hover:hover{
+    color: #00abed!important;
+    cursor: pointer;
+}
 
+.KickstarterK-header-hover:hover{
+    color: #2ade73!important;
+    cursor: pointer;
+
+}
+.FacebookF-header-hover:hover{
+    color: #3c6d96!important;
+    cursor: pointer;
+
+}
+.Instagram-header-hover:hover{
+    color: #de312a!important;
+    cursor: pointer;
+
+}
+.gray-hover:hover{
+    color: gray!important;
+    cursor: pointer;
+
+}
+.linkPublisher{
+    color: #00fdfc!important;
+    text-decoration: none!important;
+}
+.bg-darkSide{
+    background: rgba(0, 0, 0, 0.62) !important;
+}
+.padding-b-0{
+    padding-bottom: 0!important; ;
+}
