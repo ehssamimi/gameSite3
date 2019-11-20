@@ -21,6 +21,9 @@ const TicketToHeaven = React.lazy(() =>
 const SecretPage = React.lazy(() =>
     import(/* webpackChunkName: "views-error" */ './Component/Main/SecretPage')
 );
+const Test = React.lazy(() =>
+    import(/* webpackChunkName: "views-error" */ './Component/Main/TestUrl')
+);
 
 function App() {
     return (
@@ -51,6 +54,11 @@ function App() {
                             path="/ticket-to-heaven"
                             exact
                             render={props => <TicketToHeaven {...props} />}
+                        />
+                        <Route
+                            path="/test"
+                            exact
+                            render={props => <Test {...props} />}
                         />
                         <Redirect to="/error" />
                     </Switch>

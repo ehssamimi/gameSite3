@@ -11,22 +11,23 @@ const TicketToHeaven = React.lazy(() =>
 class App extends Component {
     render() {
         const { match } = this.props;
+        console.log(match);
 
         return (
                 <div className="w-100">
                     <Suspense fallback={<div className="loading" />}>
-                        <Switch>
-                            <Redirect
-                                exact
-                                from={`${match.url}/ `}
-                                to={`/ticket-to-heaven`}
-                            />
-                            {/*<Route*/}
-                                {/*path={`${match.url}/ticket-to-heaven`}*/}
-                                {/*render={props => <TicketToHeaven {...props} />}*/}
-                            {/*/>*/}
+                          <Switch>
+                                 <Redirect
+                                  exact
+                                  from={`${match.url}`}
+                                  to={`ticket-to-heaven`}
+                                 />
+                    {/*<Route*/}
+                    {/*path={`${match.url}/ticket-to-heaven`}*/}
+                    {/*render={props => <TicketToHeaven {...props} />}*/}
+                    {/*/>*/}
                             <Redirect to="/error" />
-                        </Switch>
+                         </Switch>
                     </Suspense>
                 </div>
         );
