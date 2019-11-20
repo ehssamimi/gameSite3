@@ -20,7 +20,7 @@ class App extends Component {
                                  <Redirect
                                   exact
                                   from={`${match.url}`}
-                                  to={`ticket-to-heaven`}
+                                  to={`/ticket-to-heaven`}
                                  />
                     {/*<Route*/}
                     {/*path={`${match.url}/ticket-to-heaven`}*/}
