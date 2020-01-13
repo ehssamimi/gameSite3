@@ -37,11 +37,11 @@ class MainComponent extends Component {
                             {/*<Slider/>*/}
                             <div>
                                 <First playVideo={this.playVideo.bind(this)}/>
-                                <Second/>
-                                <Three/>
-                                <Fourth/>
-                                <Fiveth/>
-                                <Footer/>
+                                {/*<Second/>*/}
+                                {/*<Three/>*/}
+                                {/*<Fourth/>*/}
+                                {/*<Fiveth/>*/}
+                                {/*<Footer/>*/}
                             </div>
 
                             {/*<SecondPage/>*/}
