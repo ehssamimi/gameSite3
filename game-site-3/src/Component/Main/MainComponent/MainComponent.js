@@ -10,6 +10,7 @@ import Fiveth from "../../Fiveth/Fiveth";
 import Footer from "../../Footer/Footer";
 import Fourth from "../../Fourth/Fourth";
 import Slider from "../../Slider/Slider";
+import FirstLandingKickStarter from "../../FirstLandingKickStarter/FirstLandingKickStarter";
 
 class MainComponent extends Component {
     constructor(props) {
@@ -36,7 +37,11 @@ class MainComponent extends Component {
                         <div>
                             {/*<Slider/>*/}
                             <div>
-                                <First playVideo={this.playVideo.bind(this)}/>
+                                {/*<First playVideo={this.playVideo.bind(this)}/>*/}
+                                <FirstLandingKickStarter/>
+
+
+
                                 {/*<Second/>*/}
                                 {/*<Three/>*/}
                                 {/*<Fourth/>*/}

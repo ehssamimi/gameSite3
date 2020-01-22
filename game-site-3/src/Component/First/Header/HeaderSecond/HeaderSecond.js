@@ -29,9 +29,9 @@ class HeaderSecond extends Component {
     }
     render() {
         return (
-            <div className=' w-100 d-flex h-12vh align-items-center  bg-black' dir='rtl'>
+            <div className=' w-100 d-flex h-9vh align-items-center  bg-black' dir='rtl'>
 
-                <div className='col-2   text-white fs-13vw  h-100 paddingZero d-flex align-items-center justify-content-center bg-green' dir='ltr'>
+                <div className='col-2  fs-13vw  h-100 paddingZero d-flex align-items-center justify-content-center textColorKickStarter' dir='ltr'>
                    SOON ON KICKSTARTER !
                 </div>
                 <div className='col-8 text-center text-white fs-23vw  '>
