@@ -56,21 +56,21 @@ class HeaderSecond extends Component {
 
 
                         <span className='d-flex  col-10 align-items-center justify-content-start pointer  ' onClick={this.handelClickMenu.bind(this)}>
-                            <FaWindowClose className='ml-2 mt-1'/>CLose
+                            <FaWindowClose className='ml-2 mt-1 fs-13vw-inputs'/>CLose
                         </span>
                             <span className='col-2 h-100 align-items-center justify-content-end MenuTxt '>
                             <img src={usa} alt={usa} className='fit-fill h-100 w-80'/>
                         </span>
                         </div>
-                        <a id="about" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">HOME</a>
-                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">KICKSTARTER</a>
-                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">JOBS & TALENTS</a>
-                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">ABOUT US</a>
-                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">EVENTS</a>
-                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center" href="#">CONTACT US</a>
+                        <a id="about" className="menu-item Menu-Item d-flex justify-content-center align-items-center fs-13vw-inputs" href="#">HOME</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center fs-13vw-inputs" href="#">KICKSTARTER</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center fs-13vw-inputs" href="#">JOBS & TALENTS</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center fs-13vw-inputs" href="#">ABOUT US</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center fs-13vw-inputs" href="#">EVENTS</a>
+                        <a id="contact" className="menu-item Menu-Item d-flex justify-content-center align-items-center fs-13vw-inputs" href="#">CONTACT US</a>
                         <div className='MenuTxt text-left d-flex flex-column paddingLeftMain' dir='ltr' >
-                            <span className="mt-4 text-left">IF YOU ARE INTERESTED IN WORKING WITH US,</span>
-                            <span  className=" ">PLEASE CONTACT US  <a id="contact" className=" linkPublisher"  href="publisher-section">HERE</a></span>
+                            <span className="mt-4 text-left fs-13vw-inputs">IF YOU ARE INTERESTED IN WORKING WITH US,</span>
+                            <span  className=" fs-13vw-inputs">PLEASE CONTACT US  <a id="contact" className=" linkPublisher "  href="publisher-section">HERE</a></span>
                         </div>
                     </div>
 
